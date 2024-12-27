@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Comentarios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="comment-container">
+        <form id="comments" class="comment-input-section">
+            <textarea required placeholder="Add comment..."></textarea>
+            <div class="input-toolbar">
+                <button type="button"><strong>B</strong></button>
+                <button type="button"><em>I</em></button>
+                <button type="button">📎</button>
+                <button type="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+        <hr>
+        <div class="comments-header">
+            <h2>Comments</h2>
+            <button class="sort-button">Most recent ⌄</button>
+        </div>
+        <div id="container-comments">
+        </div> 
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

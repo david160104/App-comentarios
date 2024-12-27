@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: ;
+    display: flex;
+    justify-content: center;
+}
+
+.comment-container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+/*https://www.google.com/search?q=css+preprocessors&sca_esv=a0b6cc145a6c8085&udm=2&sxsrf=ADLYWII0UGp8DioahL4vlB9TlbztS13UkA%3A1730943097563&ei=eRgsZ8-RIvrSkPIPnaWioAw&oq=css+pre&gs_lp=EgNpbWciB2NzcyBwcmUqAggBMgUQABiABDIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIiB9QwwtY_BFwA3gAkAEAmAFqoAHkBKoBAzYuMbgBA8gBAPgBAZgCCqAC-wSoAgrCAgYQABgHGB7CAgcQIxgnGOoCwgIEECMYJ5gDA4gGAZIHAzkuMaAHtiU&sclient=img#vhid=_vV8eeqXik3jVM&vssid=mosaic */
+.comment-input-section textarea {
+    width: 98%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.input-toolbar {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+input, button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #ff5c00;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.comments-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.comment {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.reply {
+    margin-left: 40px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.user-name {
+    font-weight: bold;
+    margin: 0;
+}
+
+.timestamp {
+    font-size: 0.9rem;
+    color: #666;
+    margin-left: 5px;
+}
+
+.comment-text {
+    margin: 5px 0;
+}
+
+.comment-actions button {
+    
+    margin-right: 10px;
+    color: #555;
+}
+
+.sort-button {
+    font-size: 0.9rem;
+    color: #666;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
